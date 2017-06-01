@@ -43,7 +43,7 @@ prediction = model.create_network(X, keep_prob)
 ``` 
 
 ### L2 Loss for Objective Function
-The L2 loss can be added the objective function by calling `get_l2_loss`.
+The L2 loss can be added to the objective function by calling `get_l2_loss`.
 ```python
 cost += 0.01 * model.get_l2_loss()
 ```
@@ -53,4 +53,4 @@ Using `reset_weights` returns a tensor operation to reset the weights using `ses
 ```python
 with tf.Session() as sess:
 	sess.run(model.reset_weights())
-	```
+```
