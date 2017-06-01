@@ -1,3 +1,16 @@
+Table of Contents
+=================
+
+   * [TensorFlow Models](#tensorflow-models)
+      * [Purpose](#purpose)
+      * [Features](#features)
+   * [Usage](#usage)
+      * [NeuralNet](#neuralnet)
+         * [Initialization](#initialization)
+         * [Building the Model](#building-the-model)
+         * [L2 Loss for Objective Function](#l2-loss-for-objective-function)
+         * [Reset Weights](#reset-weights)
+
 # TensorFlow Models
 **tensorflow-models** - TensorFlow machine learning models.
 
@@ -40,4 +53,4 @@ Using `reset_weights` returns a tensor operation to reset the weights using `ses
 ```python
 with tf.Session() as sess:
 	sess.run(model.reset_weights())
-```
+	```
